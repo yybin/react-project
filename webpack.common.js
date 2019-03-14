@@ -23,6 +23,15 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.(png|gif|jpg|jpeg|woff|eot|ttf|svg)$/,
+        exclude: /node_modules/,
+        loader: 'url-loader',
+        options: {
+            name: 'img/[name].[ext]',
+            limit: 1024
+        }
       }
     ]
   },
