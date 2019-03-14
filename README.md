@@ -1,6 +1,7 @@
 # react-project
 
-## 创建过程
+
+### 创建过程
  - 创建目录
     ```
      mkdir react-project && cd $_
